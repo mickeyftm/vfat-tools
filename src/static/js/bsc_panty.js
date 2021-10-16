@@ -12,7 +12,7 @@ async function main() {
     _print("Reading smart contracts...\n");
 
    const PANTY_CHEF_ADDR = "0x60fC7F03d954e71404079834A62E558288d4d154";
-   const rewardTokenTicker = "PANTY";
+   const rewardTokenTicker = "ANUBIS";
    const PANTY_CHEF = new ethers.Contract(PANTY_CHEF_ADDR, PANTY_CHEF_ABI, App.provider);
 
    const startBlock = await PANTY_CHEF.startBlock();
@@ -30,7 +30,7 @@ async function main() {
     const prices = await getBscPrices();
 
     await loadBscChefContract(App, tokens, prices, PANTY_CHEF, PANTY_CHEF_ADDR, PANTY_CHEF_ABI, rewardTokenTicker,
-        "panty", null, rewardsPerWeek, "pendingPanty", [1]);
+        "AnubisToken", null, rewardsPerWeek, "pendingANUBIS", [1]);
 
     hideLoading();
   }
