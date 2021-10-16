@@ -322,6 +322,7 @@ const main = async() => {
       ["Mayo                ", `<a href="mayo"          >Various</a>`,"MAYO          ","https://mayoswap.com"],
       ["Espresso Latte      ", `<a href="espresso_latte">Various</a>`,"ESPRESSO      ","https://espresso.latteswap.finance"],
       ["Chipshop            ", `<a href="chipshop"      >Various</a>`,"Various       ","https://chipshop.finance"]
+      ["Anubis              ", `<a href="anubis"        >Various</a>`,"Various       ","https://chipshop.finance"]
     ]
   }
 
